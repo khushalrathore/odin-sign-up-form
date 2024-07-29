@@ -312,6 +312,7 @@ body {
 
 .formSubmit {
   display: flex;
+  max-width: fit-content;
   flex-direction: column;
   padding: var(--padding);
   gap: 1.5rem;
@@ -355,4 +356,8 @@ a {
   &:invalid {
     border: 1px solid red;
   }
+}
+
+.formform {
+  width: 100%;
 }
