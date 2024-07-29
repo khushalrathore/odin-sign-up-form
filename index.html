@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>odin-sign-up-form</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
+</head>
+
+<body>
+  <div class="logo">
+    <img src="/assets/odin-lined.png" alt="" height="80px">
+    <h3>SpaceGuardians</h3>
+
+  </div>
+
+  <div class="content">
+    <div class="text">
+      <h2>This is not a real online service! You know you need something like this in your life to help you realize
+        your
+        deepest dreams.
+        Sign up <em>now</em> to get started.</h2>
+      <h2 class="decide">You <em>know</em> you want to.</h2>
+    </div>
+    <div id="formDivWrapper">
+      <div class="formDetails">
+
+        <h3>Let's do this!</h3>
+        <div class="formInputs">
+
+          <div id="name">
+            <div>
+              <label for="firstName">first name</label>
+              <input type="text" required name="firstName" id="firstName" autocomplete="given-name">
+            </div>
+            <div>
+              <label for="lastName">last name</label>
+              <input type="text" name="lastName" id="lastName" autocomplete="family-name">
+            </div>
+          </div>
+
+          <div id="contact">
+            <div>
+              <label for="eMail">email</label>
+              <input type="email" required name="eMail" id="eMail" autocomplete="email">
+            </div>
+            <div>
+              <label for="phoneNumber">phone number</label>
+              <input type="tel" name="phoneNumber" id="phoneNumber" autocomplete="mobile">
+            </div>
+          </div>
+
+          <div id="passwords">
+            <div>
+              <label for="password">passwords</label>
+              <input type="password" required name="password" id="password" autocomplete="new-password">
+            </div>
+            <div>
+              <label for="confirmPassword">confirm password</label>
+              <input type="password" required name="confirmPassword" id="confirmPassword"
+                autocomplete="current-password">
+            </div>
+          </div>
+
+        </div>
+      </div>
+      <div class="formSubmit">
+        <input type="submit" value="Create Account" class="button">
+        <span>Already have an account? <a href="/">Log in</a></span>
+      </div>
+
+
+    </div>
+
+
+  </div>
+</body>
+
+</html>
