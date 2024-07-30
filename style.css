@@ -64,6 +64,10 @@
 }
 
 @media (max-width:75em) {
+  .formSubmit {
+    display: flex;
+    max-width: 100% !important;
+  }
 
   body {
     flex-direction: column;
